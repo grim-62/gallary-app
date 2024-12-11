@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Gilroy-bold;
+    font-weight: 900;
+    src: url('./assets/Gilroy-ExtraBold.otf');
+}
+@font-face {
+    font-family: Gilroy-normal;
+    font-weight: 900;
+    src: url('./assets/Gilroy-Light.otf');
+}
+*{
+    font-family: Gilroy-normal;
+}
+.gil-bold{
+    font-family: Gilroy-bold;
+}
+.text-shadow{
+    text-shadow: 2px 2px 2px #333533;
+}
+
+.scrollbar-hid::-webkit-scrollbar{
+    display: none;
+}
